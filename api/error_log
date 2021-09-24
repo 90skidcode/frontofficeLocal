@@ -1,0 +1,886 @@
+[17-Oct-2020 09:22:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/glowmedi/public_html/frontoffice/api/services.php on line 7
+[17-Oct-2020 09:22:37 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/glowmedi/public_html/frontoffice/api/services.php on line 7
+[17-Oct-2020 09:38:04 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/api/services.php on line 6
+[17-Oct-2020 09:38:14 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/api/services.php on line 6
+[17-Oct-2020 09:40:59 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/api/services.php on line 6
+[17-Oct-2020 10:30:16 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/glowmedi/public_html/frontoffice/api/services.php on line 31
+[17-Oct-2020 10:30:23 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/glowmedi/public_html/frontoffice/api/services.php on line 31
+[17-Oct-2020 10:34:01 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/glowmedi/public_html/frontoffice/api/services.php on line 29
+[17-Oct-2020 10:36:04 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/glowmedi/public_html/frontoffice/api/services.php on line 29
+[17-Oct-2020 11:21:32 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/glowmedi/public_html/frontoffice/api/services.php on line 45
+[17-Oct-2020 11:24:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/glowmedi/public_html/frontoffice/api/services.php on line 45
+[17-Oct-2020 16:51:18 UTC] PHP Parse error:  syntax error, unexpected '$like_key' (T_VARIABLE), expecting ';' in /home/glowmedi/public_html/frontoffice/api/services.php on line 47
+[17-Oct-2020 16:51:20 UTC] PHP Parse error:  syntax error, unexpected '$like_key' (T_VARIABLE), expecting ';' in /home/glowmedi/public_html/frontoffice/api/services.php on line 47
+[18-Oct-2020 05:38:21 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/glowmedi/public_html/frontoffice/api/services.php on line 63
+[18-Oct-2020 12:40:41 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:57
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(16): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 57
+[18-Oct-2020 12:41:09 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:58
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(16): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 58
+[18-Oct-2020 12:41:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:58
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(16): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 58
+[18-Oct-2020 12:41:55 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:58
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(16): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 58
+[18-Oct-2020 12:42:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:61
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(19): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 12:42:56 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:61
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(19): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 12:43:11 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:61
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(19): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 12:44:27 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/glowmedi/public_html/frontoffice/api/services.php:63
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(19): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 63
+[18-Oct-2020 12:44:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/glowmedi/public_html/frontoffice/api/services.php:53
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(17): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 53
+[18-Oct-2020 12:44:59 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/glowmedi/public_html/frontoffice/api/services.php:53
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(17): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 53
+[18-Oct-2020 12:46:15 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/glowmedi/public_html/frontoffice/api/services.php:53
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(17): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 53
+[18-Oct-2020 12:46:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/glowmedi/public_html/frontoffice/api/services.php:53
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(17): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 53
+[18-Oct-2020 12:52:57 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function myfunction(), 1 passed in /home/glowmedi/public_html/frontoffice/api/services.php on line 17 and exactly 2 expected in /home/glowmedi/public_html/frontoffice/api/services.php:50
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(17): myfunction(Array)
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 50
+[18-Oct-2020 06:14:15 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/glowmedi/public_html/frontoffice/api/services.php on line 59
+[18-Oct-2020 06:14:20 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/glowmedi/public_html/frontoffice/api/services.php on line 59
+[18-Oct-2020 17:06:15 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 63
+[18-Oct-2020 17:16:32 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 17:16:32 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function limitCondition(), 1 passed in /home/glowmedi/public_html/frontoffice/api/services.php on line 76 and exactly 2 expected in /home/glowmedi/public_html/frontoffice/api/services.php:66
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(76): limitCondition('1')
+#1 /home/glowmedi/public_html/frontoffice/api/services.php(26): generalMaster(Array, Object(mysqli))
+#2 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 66
+[18-Oct-2020 17:16:47 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 17:16:47 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function limitCondition(), 1 passed in /home/glowmedi/public_html/frontoffice/api/services.php on line 76 and exactly 2 expected in /home/glowmedi/public_html/frontoffice/api/services.php:66
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(76): limitCondition('1')
+#1 /home/glowmedi/public_html/frontoffice/api/services.php(26): generalMaster(Array, Object(mysqli))
+#2 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 66
+[18-Oct-2020 17:17:22 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 17:17:33 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 61
+[18-Oct-2020 17:21:54 Asia/Bangkok] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/api/services.php on line 68
+[18-Oct-2020 17:45:49 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/api/services.php on line 73
+[18-Oct-2020 17:46:54 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/api/services.php on line 74
+[18-Oct-2020 17:46:58 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/api/services.php on line 74
+[18-Oct-2020 17:48:04 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/api/services.php on line 76
+[18-Oct-2020 17:52:53 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/api/services.php on line 76
+[18-Oct-2020 18:11:42 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function roomMaster(), 2 passed in /home/glowmedi/public_html/frontoffice/api/services.php on line 26 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/api/services.php:100
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/api/services.php(26): roomMaster(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/api/services.php on line 100
+[09-Nov-2020 00:18:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:154
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 154
+[09-Nov-2020 00:19:21 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:154
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 154
+[09-Nov-2020 00:19:28 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:154
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 154
+[09-Nov-2020 00:19:48 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:154
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 154
+[09-Nov-2020 00:20:24 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:155
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 155
+[09-Nov-2020 00:20:45 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:155
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 155
+[09-Nov-2020 00:21:00 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:155
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 155
+[09-Nov-2020 00:21:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:155
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 155
+[09-Nov-2020 00:21:34 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function array_count() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:155
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(29): roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 155
+[09-Nov-2020 18:30:26 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:31:39 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:32:01 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:32:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:33:49 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:34:40 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:39:12 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'Frontoffice_insert' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 18:40:45 Asia/Bangkok] PHP Warning:  require_once(service_add11.php): failed to open stream: No such file or directory in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 4
+[09-Nov-2020 18:40:45 Asia/Bangkok] PHP Fatal error:  require_once(): Failed opening required 'service_add11.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 4
+[09-Nov-2020 18:41:48 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'Frontoffice' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 5
+[09-Nov-2020 19:21:58 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 19:22:12 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 19:24:38 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 19:26:47 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 19:27:23 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 19:27:41 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:49:57 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:50:52 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:52:08 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:53:37 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:53:37 Asia/Bangkok] PHP Warning:  rtrim() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[09-Nov-2020 20:53:37 Asia/Bangkok] PHP Warning:  rtrim() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[09-Nov-2020 20:55:03 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:55:37 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:56:02 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:56:19 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:58:54 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:59:13 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 20:59:45 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:00:09 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:00:34 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:01:08 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:01:34 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:03:25 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:03:27 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:03:41 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:03:49 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:04:16 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:12:12 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:26:15 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:26:30 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[09-Nov-2020 21:29:49 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 29
+[13-Nov-2020 16:15:38 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'FrontofficeSelect' not found in /home/glowmedi/public_html/frontoffice/admin/api/services.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services.php on line 6
+[16-Nov-2020 14:25:19 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method Frontoffice::insert_booking() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 32
+[18-Nov-2020 00:13:07 Asia/Bangkok] PHP Warning:  mysqli::query(): (21000/1242): Subquery returns more than 1 row in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 36
+[19-Nov-2020 20:28:57 Asia/Bangkok] PHP Fatal error:  Cannot redeclare whereCondition() (previously declared in /home/glowmedi/public_html/frontoffice/admin/api/services.php:76) in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 95
+[19-Nov-2020 20:29:05 Asia/Bangkok] PHP Fatal error:  Cannot redeclare whereCondition() (previously declared in /home/glowmedi/public_html/frontoffice/admin/api/services.php:76) in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 95
+[19-Nov-2020 20:29:06 Asia/Bangkok] PHP Fatal error:  Cannot redeclare whereCondition() (previously declared in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:82) in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 95
+[19-Nov-2020 20:29:08 Asia/Bangkok] PHP Fatal error:  Cannot redeclare whereCondition() (previously declared in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:82) in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 95
+[22-Nov-2020 13:00:10 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function getDatesFromRange() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:94
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(52): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 94
+[22-Nov-2020 13:00:54 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function getDatesFromRange() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:94
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(52): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 94
+[22-Nov-2020 13:01:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function getDatesFromRange() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:94
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(52): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 94
+[22-Nov-2020 17:18:22 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method FrontofficeSelect::get_admin_dashboard() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 40
+[22-Nov-2020 17:19:31 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 71
+[23-Nov-2020 00:19:04 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method FrontofficeSelect::get_reservation_detail() in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 32
+[23-Nov-2020 00:19:16 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:17
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(32): FrontofficeSelect->get_reservation_detail(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 17
+[23-Nov-2020 00:19:52 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:17
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(32): FrontofficeSelect->get_reservation_detail(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 17
+[23-Nov-2020 00:20:10 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:17
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(32): FrontofficeSelect->get_reservation_detail(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 17
+[24-Nov-2020 17:04:05 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'FrontofficeUpdate' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 8
+[24-Nov-2020 17:05:10 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Class 'FrontofficeUpdate' not found in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 8
+[24-Nov-2020 17:30:12 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::Mysql_affected_rows() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php:31
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(30): FrontofficeUpdate->general_updates(Array, Object(mysqli), ' WHERE room_no ...', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 31
+[24-Nov-2020 17:30:27 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::Mysql_affected_rows() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php:31
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(30): FrontofficeUpdate->general_updates(Array, Object(mysqli), ' WHERE room_no ...', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 31
+[24-Nov-2020 17:31:42 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_affected_rows() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php:31
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(30): FrontofficeUpdate->general_updates(Array, Object(mysqli), ' WHERE room_no ...', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 31
+[24-Nov-2020 17:32:09 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_affected_rows() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php:31
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(30): FrontofficeUpdate->general_updates(Array, Object(mysqli), ' WHERE room_no ...', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 31
+[24-Nov-2020 17:32:29 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysql_affected_rows() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php:31
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(30): FrontofficeUpdate->general_updates(Array, Object(mysqli), ' WHERE room_no ...', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 31
+[24-Nov-2020 17:34:27 Asia/Bangkok] PHP Parse error:  syntax error, unexpected 'l' (T_STRING) in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 30
+[29-Nov-2020 21:21:53 Asia/Bangkok] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 68
+[30-Nov-2020 00:33:15 Asia/Bangkok] PHP Fatal error:  Cannot use [] for reading in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 206
+[30-Nov-2020 18:34:44 Asia/Bangkok] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 111
+[30-Nov-2020 18:36:13 Asia/Bangkok] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 111
+[30-Nov-2020 18:36:28 Asia/Bangkok] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 111
+[30-Nov-2020 18:36:43 Asia/Bangkok] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 111
+[30-Nov-2020 18:37:13 Asia/Bangkok] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 111
+[30-Nov-2020 19:25:53 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::calander_availablity(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 53 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:177
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 177
+[30-Nov-2020 19:26:33 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::calander_availablity(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 53 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:177
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 177
+[30-Nov-2020 19:26:50 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::calander_availablity(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 53 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:177
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 177
+[30-Nov-2020 19:27:41 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:201
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 201
+[30-Nov-2020 19:28:51 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:203
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 203
+[30-Nov-2020 19:29:14 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:203
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 203
+[30-Nov-2020 19:29:44 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:211
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 211
+[30-Nov-2020 19:30:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:222
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 222
+[30-Nov-2020 19:31:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:220
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 220
+[30-Nov-2020 19:31:38 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:220
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 220
+[30-Nov-2020 19:32:51 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:223
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(53): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 223
+[04-Dec-2020 07:34:59 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:35:52 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:35:58 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:36:03 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:36:15 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:36:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:36:49 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:41:00 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:41:04 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:41:23 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:41:26 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:41:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:43:21 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:48:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:49:25 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 14:49:42 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysql_insert_id() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php:39
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(41): Frontoffice->insert_reservation(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 39
+[04-Dec-2020 14:52:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::insert_id() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php:39
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(41): Frontoffice->insert_reservation(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 39
+[04-Dec-2020 07:57:27 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:57:34 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 07:58:10 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:42 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:42 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:45 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:45 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 09:02:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:36 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:45 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:58 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:03:59 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:04:00 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:04:03 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:04:09 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:16 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:16 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:18 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:19 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:25 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:57 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:57 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:07:59 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:08:07 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:08:08 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:08:09 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:08:12 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:08:18 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:32 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:33 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:35 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:39 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:43 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:43 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 10:15:49 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:37 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:37 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:38 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:40 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:44 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:44 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[04-Dec-2020 12:14:50 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 05:17:02 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 05:17:03 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 05:55:25 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:09:04 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:11:54 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:14:53 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:15:52 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:16:07 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:20:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 12
+[05-Dec-2020 06:24:30 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 8
+[05-Dec-2020 06:28:33 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, string given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:29:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:31:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 3
+[05-Dec-2020 06:32:20 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/upload.php on line 4
+[05-Dec-2020 18:21:27 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on null in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php:156
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(45): Frontoffice->insert_advance(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 156
+[06-Dec-2020 21:15:49 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/services.php on line 15
+[06-Dec-2020 21:15:56 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/services.php on line 15
+[06-Dec-2020 21:16:04 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/services.php on line 15
+[06-Dec-2020 21:17:12 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 21:18:16 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 21:19:39 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 21:20:46 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 21:22:26 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 22:05:27 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 22:05:38 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 22:06:34 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 22:08:49 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[06-Dec-2020 22:39:09 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 45
+[08-Dec-2020 16:13:55 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[08-Dec-2020 16:49:35 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[08-Dec-2020 17:03:31 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[08-Dec-2020 18:09:23 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[09-Dec-2020 00:01:32 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[09-Dec-2020 00:04:06 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[09-Dec-2020 00:08:24 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 47
+[09-Dec-2020 13:03:07 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 49
+[09-Dec-2020 17:55:50 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 49
+[09-Dec-2020 18:03:27 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 49
+[09-Dec-2020 18:26:34 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 49
+[10-Dec-2020 11:56:57 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 169
+[10-Dec-2020 11:57:28 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 169
+[10-Dec-2020 11:59:44 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 169
+[10-Dec-2020 12:00:30 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 169
+[12-Dec-2020 15:20:53 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 78
+[12-Dec-2020 15:22:20 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 78
+[12-Dec-2020 15:46:52 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 78
+[12-Dec-2020 16:16:34 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 78
+[12-Dec-2020 16:20:13 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 48
+[12-Dec-2020 18:17:12 Asia/Bangkok] PHP Fatal error:  Cannot redeclare FrontofficeSelect::get_list_reservation() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 47
+[13-Dec-2020 02:10:47 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 143
+[13-Dec-2020 02:10:55 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 143
+[13-Dec-2020 02:21:25 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:296
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(102): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 296
+[13-Dec-2020 02:24:21 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:296
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(102): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 296
+[13-Dec-2020 02:27:58 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:296
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(102): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 296
+[13-Dec-2020 12:14:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:307
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(102): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 307
+[13-Dec-2020 12:18:18 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:289
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(102): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 289
+[13-Dec-2020 13:25:33 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 143
+[13-Dec-2020 13:37:07 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_avail_rooms(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 58 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:308
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 308
+[13-Dec-2020 13:37:57 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 13:51:05 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:06:29 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:06:49 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:07:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:07:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:08:02 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:324
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 324
+[13-Dec-2020 14:23:20 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 14:24:00 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 14:24:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 14:25:45 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 14:26:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 14:35:28 Asia/Bangkok] PHP Warning:  mysqli_result::fetch_assoc() expects exactly 0 parameters, 1 given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 340
+[13-Dec-2020 14:39:17 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:340
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 340
+[13-Dec-2020 14:41:22 Asia/Bangkok] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 343
+[13-Dec-2020 14:44:04 Asia/Bangkok] PHP Warning:  array_merge(): Argument #1 is not an array in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 344
+[13-Dec-2020 14:44:04 Asia/Bangkok] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 344
+[13-Dec-2020 14:44:34 Asia/Bangkok] PHP Warning:  array_merge(): Argument #1 is not an array in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 344
+[13-Dec-2020 14:44:34 Asia/Bangkok] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 344
+[13-Dec-2020 18:00:45 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 143
+[13-Dec-2020 20:36:06 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 124
+[13-Dec-2020 20:36:06 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 124
+[13-Dec-2020 20:54:52 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 143
+[13-Dec-2020 21:21:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 21:21:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 21:34:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 21:34:35 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:327
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 327
+[13-Dec-2020 21:43:19 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 124
+[13-Dec-2020 21:43:19 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 124
+[13-Dec-2020 23:44:14 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[14-Dec-2020 18:56:30 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[14-Dec-2020 19:23:49 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[14-Dec-2020 19:24:11 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[14-Dec-2020 19:32:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[14-Dec-2020 19:32:06 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 01:05:05 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 01:05:11 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 01:07:10 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:18 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:27 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:33 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:37 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:39 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:07:41 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:17:36 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 187
+[15-Dec-2020 01:22:19 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 187
+[15-Dec-2020 01:23:27 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 187
+[15-Dec-2020 01:24:49 Asia/Bangkok] PHP Warning:  mysqli::query(): Empty query in /home/glowmedi/public_html/frontoffice/admin/api/service_update.php on line 187
+[15-Dec-2020 01:26:44 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:28:23 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:28:26 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:28:28 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:28:40 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:28:51 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 01:30:25 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 13:32:13 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 13:32:47 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 164
+[15-Dec-2020 16:48:56 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:49:47 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:24 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:24 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:24 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:52:50 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:53:32 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:53:32 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:53:33 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:54:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:54:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:54:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:58:02 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:58:02 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 16:58:03 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:348
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(58): FrontofficeSelect->get_avail_rooms(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 348
+[15-Dec-2020 21:33:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:272
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(78): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:33:28 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:272
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(78): FrontofficeSelect->calander_availablity(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:38:14 Asia/Bangkok] PHP Fatal error:  Cannot use [] for reading in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:38:36 Asia/Bangkok] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:39:02 Asia/Bangkok] PHP Fatal error:  Cannot use [] for reading in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:39:24 Asia/Bangkok] PHP Fatal error:  Cannot use [] for reading in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 272
+[15-Dec-2020 21:43:03 Asia/Bangkok] PHP Fatal error:  Cannot use [] for reading in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 273
+[17-Dec-2020 00:02:58 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:316
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(110): FrontofficeSelect->roomcheckAvail(Array, Object(mysqli), '', '', '')
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 316
+[17-Dec-2020 13:52:44 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php:14
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services.php(46): Frontoffice->insert_reservation(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 14
+[18-Dec-2020 17:04:44 Asia/Bangkok] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 186
+[18-Dec-2020 17:04:56 Asia/Bangkok] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 186
+[18-Dec-2020 17:06:38 Asia/Bangkok] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 186
+[18-Dec-2020 17:07:03 Asia/Bangkok] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 186
+[18-Dec-2020 17:07:40 Asia/Bangkok] PHP Warning:  str_split() expects parameter 1 to be string, array given in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 186
+[18-Dec-2020 17:07:52 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 189
+[18-Dec-2020 17:12:50 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 189
+[18-Dec-2020 17:13:04 Asia/Bangkok] PHP Warning:  A non-numeric value encountered in /home/glowmedi/public_html/frontoffice/admin/api/service_add.php on line 189
+[18-Dec-2020 21:00:00 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:71
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(61): FrontofficeSelect->get_adv_details(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 71
+[18-Dec-2020 21:00:44 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:71
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(61): FrontofficeSelect->get_adv_details(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 71
+[18-Dec-2020 21:01:11 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:73
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(61): FrontofficeSelect->get_adv_details(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 73
+[18-Dec-2020 21:01:33 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:73
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(61): FrontofficeSelect->get_adv_details(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 73
+[18-Dec-2020 21:02:13 Asia/Bangkok] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on boolean in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:73
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(61): FrontofficeSelect->get_adv_details(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 73
+[18-Dec-2020 22:23:37 Asia/Bangkok] PHP Warning:  min(): When only one parameter is given, it must be an array in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 342
+[18-Dec-2020 22:23:37 Asia/Bangkok] PHP Warning:  max(): When only one parameter is given, it must be an array in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 343
+[21-Jun-2021 21:46:51 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:47:03 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:50:24 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:50:53 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:50:56 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:51:37 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:51:40 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 85 and exactly 5 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(85): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518
+[21-Jun-2021 21:53:26 Asia/Bangkok] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function FrontofficeSelect::get_customer_ledger(), 2 passed in /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php on line 88 and exactly 3 expected in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php:518
+Stack trace:
+#0 /home/glowmedi/public_html/frontoffice/admin/api/services_dev.php(88): FrontofficeSelect->get_customer_ledger(Array, Object(mysqli))
+#1 {main}
+  thrown in /home/glowmedi/public_html/frontoffice/admin/api/service_select.php on line 518

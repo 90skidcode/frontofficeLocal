@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Room</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- page css -->
+    <link href="assets/vendors/select2/select2.css" rel="stylesheet">
+    <!-- page css -->
+    <link href="assets/vendors/datatables/dataTables.bootstrap.min.css" rel="stylesheet">
+    <!-- Core css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="app is-folded">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header no-print">
+                <div class="logo logo-dark">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="Logo">
+                        <img class="logo" src="assets/images/logo/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="logo logo-white">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo-white.png" alt="Logo">
+                        <img class="logo" src="assets/images/logo/logo-white.png" alt="Logo">
+                    </a>
+                </div>
+
+            </div>
+            <!-- Header END -->
+
+            <!-- Side Nav START -->
+            <div class="side-nav no-print">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="notification-toast top-right" id="notification-toast"></div>
+                    <div class="card">
+                        <div class="card-body  float-left">
+                            <div class="col-md-12 p-0 float-left">
+                                <h4 class="float-left">Customer Ledger</h4>
+                            </div>
+                            <div class="customer-info">
+
+                            </div>
+                            <div class="m-t-10 float-left w-100">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 p-r-0">
+                                        <div class="card summary p-0"></div>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9">
+                                        <div class="col-md-12 col-sm-12 p-0">
+                                            <ul class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                <li><a class="nav-link text-left show active" id="v-pills-leadger-tab" data-toggle="pill" href="#v-pills-leadger" role="tab" aria-controls="v-pills-leadger" aria-selected="false">Rent Details</a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-hotel-tab" data-toggle="pill" href="#v-pills-hotel" role="tab" aria-controls="v-pills-hotel" aria-selected="false">Hotel  Details</a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-advance-tab" data-toggle="pill" href="#v-pills-advance" role="tab" aria-controls="v-pills-advance" aria-selected="false">Advance  List</a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-meals-tab" data-toggle="pill" href="#v-pills-meals" role="tab" aria-controls="v-pills-meals" aria-selected="false">Meals Details</a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-miscellaneous-tab" data-toggle="pill" href="#v-pills-miscellaneous" role="tab" aria-controls="v-pills-miscellaneous" aria-selected="false">Miscellaneous </a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-invoice-tab" data-toggle="pill" href="#v-pills-invoice" role="tab" aria-controls="v-pills-invoice" aria-selected="false">Invoice </a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-docs-tab" data-toggle="pill" href="#v-pills-docs" role="tab" aria-controls="v-pills-docs" aria-selected="false">Docs </a></li>
+                                                <li><a class="nav-link text-left show" id="v-pills-room-tab" data-toggle="pill" href="#v-pills-room" role="tab" aria-controls="v-pills-room" aria-selected="false">Booking Details</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 p-0">
+                                            <div class="tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade show active" id="v-pills-leadger" role="tabpanel" aria-labelledby="v-pills-leadger-tab">
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class="text-center border-right-0 border-bottom-0">Leadger Id</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">Date</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">Room No</th>
+                                                                <th class="text-right border-right-0 border-bottom-0">Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="leadger-details">
+                                                            <td colspan="4" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade show" id="v-pills-room" role="tabpanel" aria-labelledby="v-pills-room-tab">
+                                                    <button class="btn btn-danger float-right m-b-10 btn-checkout c-status no-add " data-toggle="modal" data-target="#checkout">Checkout</button>
+                                                    <button type="button" class="btn btn-primary float-right m-b-10 m-l-10 m-r-10 hotel-room-add c-status no-add no-less-add" data-toggle="modal" data-target="#room-swap" data-type="add">
+                                                        Add Room </button>
+                                                    <a class="btn btn-success float-right m-b-10  bill-sample c-status" target="_blank">Bill Sample</a>
+                                                    <table class="table table-bordered room-full-details">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class=" border-right-0 border-bottom-0">Room Type
+                                                                </th>
+                                                                <th class=" border-right-0 border-bottom-0">No of Night
+                                                                </th>
+                                                                <th class=" border-right-0 border-bottom-0">From Date / To Date</th>
+                                                                <th class=" border-right-0 border-bottom-0">Rooms Number
+                                                                </th>
+                                                                <th class=" border-right-0 border-bottom-0">No of Guest (Adult / Child)</th>
+                                                                <th class=" border-right-0 border-bottom-0 ">Price</th>
+                                                                <th class=" border-right-0 border-bottom-0">Discount%
+                                                                </th>
+                                                                <th class=" border-bottom-0 item-total">Total</th>
+                                                                <th class=" border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="room-details">
+                                                            <td colspan="8" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-advance" role="tabpanel" aria-labelledby="v-pills-advance-tab">
+                                                    <button class="btn btn-primary float-right m-b-10 btn-advance c-status no-add no-less-add" data-type="Advance">Add</button>
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Date</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Bill No</th>
+                                                                <th class="text-center border-bottom-0 item-total">
+                                                                    Description</th>
+                                                                <th class="text-right border-bottom-0 item-total">Total
+                                                                </th>
+                                                                <th class=" text-center border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="advance-details">
+                                                            <td colspan="3" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-hotel" role="tabpanel" aria-labelledby="v-pills-hotel-tab">
+                                                    <button class="btn btn-primary float-right m-b-10 btn-advance c-status no-add no-less-add" data-type="Hotel">Add</button>
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Date</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Bill No</th>
+                                                                <th class="text-center border-bottom-0 item-total">
+                                                                    Description</th>
+                                                                <th class="text-right border-bottom-0 item-total">Total
+                                                                </th>
+                                                                <th class="text-right border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="hotel-details">
+                                                            <td colspan="4" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-meals" role="tabpanel" aria-labelledby="v-pills-meals-tab">
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Meal Plan</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Meal Price (Per Person)</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Meal Count</th>
+                                                                <th class="text-right border-right-0 border-bottom-0">
+                                                                    Meal Total Amount</th>
+                                                                <th class="text-right border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="meals-details">
+                                                            <td colspan="5" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-miscellaneous" role="tabpanel" aria-labelledby="v-pills-miscellaneous-tab">
+                                                    <button class="btn btn-primary float-right m-b-10 btn-miscellaneous c-status no-add no-less-add">Add</button>
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Date</th>
+                                                                <th class="text-center border-right-0 border-bottom-0">
+                                                                    Type</th>
+
+                                                                <th class="text-right border-right-0 border-bottom-0">
+                                                                    Total Amount</th>
+                                                                <th class="text-right border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="miscellaneous-details">
+                                                            <td colspan="4" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-invoice" role="tabpanel" aria-labelledby="v-pills-invoice-tab">
+                                                    <table class="table table-bordered">
+                                                        <thead class="thead-light">
+                                                            <tr>
+
+                                                                <th class="text-center border-right-0 border-bottom-0">Invoice No</th>
+                                                                <th class="text-right border-bottom-0">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="invoice-details">
+                                                            <td colspan="2" class="text-center">No Records Found.</td>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+                                                <div class="tab-pane fade" id="v-pills-docs" role="tabpanel" aria-labelledby="v-pills-docs-tab">
+                                                    <form id="docs-add">
+                                                        <div class="form-group col-md-2 d-none">
+                                                            <label for="inputEmail4">Docs</label>
+                                                            <input type="text" class="form-control" name="booking_doc">
+                                                        </div>
+                                                        <div class="form-group col-md-12">
+                                                            <label class="pointer btn btn-primary" for="upload">Upload Documnet
+                                                            Files</label>
+                                                            <input type="file" id="upload" accept="image/*">
+                                                        </div>
+                                                        <div class="row image-prev-area d-none">
+
+                                                        </div>
+                                                        <button type="button" class="btn btn-primary m-b-10 btn-upload c-status">Save</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content Wrapper END -->
+        </div>
+        <!-- Page Container END -->
+    </div>
+    </div>
+    <div class="modal fade" id="room-avaliblity">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="delete">Bill Swap to Room No</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body room-avaliblity text-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="room-miscellaneous">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="delete">Miscellaneous</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="miscellaneous-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_expenses">Type</label>
+                                <select class="select2" id="miscellaneous_expenses" name="miscellaneous_expenses">
+                                   <option value="">Select</option> 
+                                   <option value="Extra Bed">Extra Bed</option> 
+                                   <option value="Trucking">Trucking</option>                                          
+                                   <option value="Extra Rent">Extra Rent</option> 
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_amount">Payment Mode</label>
+                                <select class="select2 payment_mode" id="payment_modes" name="payment_mode" required>
+                                    <option value="">Select</option> 
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_amount">Price</label>
+                                <input type="number" class="form-control text-right miscellaneous-calc" name="miscellaneous_amount" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_cgst">CGST</label>
+                                <input type="number" class="form-control text-right miscellaneous-calc" name="miscellaneous_cgst" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_sgst">SGST</label>
+                                <input type="number" class="form-control text-right miscellaneous-calc" name="miscellaneous_sgst" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="miscellaneous_total">Total</label>
+                                <input type="number" class="form-control text-right" name="miscellaneous_total" readonly>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-miscellaneous-save">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="meal-edit">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meal Edit</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="meal-edit-form">
+                        <div class="form-row">
+
+                            <div class="form-group col-md-3">
+                                <label for="meal_plan_id">Meal Plan</label>
+                                <select class="select2" id="meal_plan_id" name="meal_plan_id">
+                                   <option value="0">Select Meal Plan</option>                                          
+                                </select>
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="meal_price">Meal Price (Per Person)</label>
+                                <input type="number" class="form-control text-right" name="meal_price">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="meal_count">Meal Count</label>
+                                <input type="number" class="form-control text-right" name="meal_count">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label for="meal_total">Meal Total Amount</label>
+                                <input type="number" class="form-control text-right meal_total" name="meal_total">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-meal-save">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="split-bill-modal">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="delete">Bill Details</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body split-bill-area text-center">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card summary p-0">
+                                <div class="card-header">
+                                    <h3 class="p-2 p-l-0 m-0">Summary</h3>
+                                </div>
+                                <div class="card-body p-0">
+                                </div>
+                            </div>
+                            <form id="checkout-full-split">
+                                <p>Payment Type</p>
+                                <select class="select2 payment_mode" id="payment_mode" name="payment_mode" required>
+
+                                </select>
+                                <br>
+                                <p>Amount</p>
+                                <input type="text" required name="advance" class="advance font-weight-bolder form-control text-right">
+                            </form>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card  p-0">
+                                <div class="card-header">
+                                    <h3 class="p-2 p-l-0 m-0">Customer Details</h3>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="m-t-5 float-left">
+                                        <form id="customer-add">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-1">
+                                                    <label for="inputEmail4">Title</label>
+                                                    <select class="select2" name="customer_title">
+                                                        <option value="Mr."> Mr.</option>
+                                                        <option value="Mrs."> Mrs.</option>
+                                                        <option value="Ms."> Ms.</option>
+                                                        <option value="Miss."> Miss.</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">First Name</label>
+                                                    <input type="text" class="form-control" name="customer_fname" required>
+                                                    <input type="hidden" class="form-control" name="customer_id">
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">Last Name</label>
+                                                    <input type="text" class="form-control" name="customer_lname" required>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">Gender</label>
+                                                    <select class="select2" name="customer_gender">
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>
+                                                        <option value="Transgender">Transgender</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">Nationality</label>
+                                                    <select class="select2" name="customer_nationality">
+                                                        <option value="Afghan">Afghan</option>
+                                                        <option value="Albanian">Albanian</option>
+                                                        <option value="Algerian">Algerian</option>
+                                                        <option value="American">American</option>
+                                                        <option value="Andorran">Andorran</option>
+                                                        <option value="Angolan">Angolan</option>
+                                                        <option value="Antiguans">Antiguans</option>
+                                                        <option value="Argentinean">Argentinean</option>
+                                                        <option value="Armenian">Armenian</option>
+                                                        <option value="Australian">Australian</option>
+                                                        <option value="Austrian">Austrian</option>
+                                                        <option value="Azerbaijani">Azerbaijani</option>
+                                                        <option value="Bahamian">Bahamian</option>
+                                                        <option value="Bahraini">Bahraini</option>
+                                                        <option value="Bangladeshi">Bangladeshi</option>
+                                                        <option value="Barbadian">Barbadian</option>
+                                                        <option value="Barbudans">Barbudans</option>
+                                                        <option value="Batswana">Batswana</option>
+                                                        <option value="Belarusian">Belarusian</option>
+                                                        <option value="Belgian">Belgian</option>
+                                                        <option value="Belizean">Belizean</option>
+                                                        <option value="Beninese">Beninese</option>
+                                                        <option value="Bhutanese">Bhutanese</option>
+                                                        <option value="Bolivian">Bolivian</option>
+                                                        <option value="Bosnian">Bosnian</option>
+                                                        <option value="Brazilian">Brazilian</option>
+                                                        <option value="British">British</option>
+                                                        <option value="Bruneian">Bruneian</option>
+                                                        <option value="Bulgarian">Bulgarian</option>
+                                                        <option value="Burkinabe">Burkinabe</option>
+                                                        <option value="Burmese">Burmese</option>
+                                                        <option value="Burundian">Burundian</option>
+                                                        <option value="Cambodian">Cambodian</option>
+                                                        <option value="Cameroonian">Cameroonian</option>
+                                                        <option value="Canadian">Canadian</option>
+                                                        <option value="Cape Verdean">Cape Verdean</option>
+                                                        <option value="Central African">Central African</option>
+                                                        <option value="Chadian">Chadian</option>
+                                                        <option value="Chilean">Chilean</option>
+                                                        <option value="Chinese">Chinese</option>
+                                                        <option value="Colombian">Colombian</option>
+                                                        <option value="Comoran">Comoran</option>
+                                                        <option value="Congolese">Congolese</option>
+                                                        <option value="Costa Rican">Costa Rican</option>
+                                                        <option value="Croatian">Croatian</option>
+                                                        <option value="Cuban">Cuban</option>
+                                                        <option value="Cypriot">Cypriot</option>
+                                                        <option value="Czech">Czech</option>
+                                                        <option value="Danish">Danish</option>
+                                                        <option value="Djibouti">Djibouti</option>
+                                                        <option value="Dominican">Dominican</option>
+                                                        <option value="Dutch">Dutch</option>
+                                                        <option value="East Timorese">East Timorese</option>
+                                                        <option value="Ecuadorean">Ecuadorean</option>
+                                                        <option value="Egyptian">Egyptian</option>
+                                                        <option value="Emirian">Emirian</option>
+                                                        <option value="Equatorial Guinean">Equatorial Guinean</option>
+                                                        <option value="Eritrean">Eritrean</option>
+                                                        <option value="Estonian">Estonian</option>
+                                                        <option value="Ethiopian">Ethiopian</option>
+                                                        <option value="Fijian">Fijian</option>
+                                                        <option value="Filipino">Filipino</option>
+                                                        <option value="Finnish">Finnish</option>
+                                                        <option value="French">French</option>
+                                                        <option value="Gabonese">Gabonese</option>
+                                                        <option value="Gambian">Gambian</option>
+                                                        <option value="Georgian">Georgian</option>
+                                                        <option value="German">German</option>
+                                                        <option value="Ghanaian">Ghanaian</option>
+                                                        <option value="Greek">Greek</option>
+                                                        <option value="Grenadian">Grenadian</option>
+                                                        <option value="Guatemalan">Guatemalan</option>
+                                                        <option value="Guinea-Bissauan">Guinea-Bissauan</option>
+                                                        <option value="Guinean">Guinean</option>
+                                                        <option value="Guyanese">Guyanese</option>
+                                                        <option value="Haitian">Haitian</option>
+                                                        <option value="Herzegovinian">Herzegovinian</option>
+                                                        <option value="Honduran">Honduran</option>
+                                                        <option value="Hungarian">Hungarian</option>
+                                                        <option value="I-Kiribati">I-Kiribati</option>
+                                                        <option value="Icelander">Icelander</option>
+                                                        <option value="Indian" selected>Indian</option>
+                                                        <option value="Indonesian">Indonesian</option>
+                                                        <option value="Iranian">Iranian</option>
+                                                        <option value="Iraqi">Iraqi</option>
+                                                        <option value="Irish">Irish</option>
+                                                        <option value="Israeli">Israeli</option>
+                                                        <option value="Italian">Italian</option>
+                                                        <option value="Ivorian">Ivorian</option>
+                                                        <option value="Jamaican">Jamaican</option>
+                                                        <option value="Japanese">Japanese</option>
+                                                        <option value="Jordanian">Jordanian</option>
+                                                        <option value="Kazakhstani">Kazakhstani</option>
+                                                        <option value="Kenyan">Kenyan</option>
+                                                        <option value="Kittian and Nevisian">Kittian and Nevisian
+                                                        </option>
+                                                        <option value="Kuwaiti">Kuwaiti</option>
+                                                        <option value="Kyrgyz">Kyrgyz</option>
+                                                        <option value="Laotian">Laotian</option>
+                                                        <option value="Latvian">Latvian</option>
+                                                        <option value="Lebanese">Lebanese</option>
+                                                        <option value="Liberian">Liberian</option>
+                                                        <option value="Libyan">Libyan</option>
+                                                        <option value="Liechtensteiner">Liechtensteiner</option>
+                                                        <option value="Lithuanian">Lithuanian</option>
+                                                        <option value="Luxembourger">Luxembourger</option>
+                                                        <option value="Macedonian">Macedonian</option>
+                                                        <option value="Malagasy">Malagasy</option>
+                                                        <option value="Malawian">Malawian</option>
+                                                        <option value="Malaysian">Malaysian</option>
+                                                        <option value="Maldivan">Maldivan</option>
+                                                        <option value="Malian">Malian</option>
+                                                        <option value="Maltese">Maltese</option>
+                                                        <option value="Marshallese">Marshallese</option>
+                                                        <option value="Mauritanian">Mauritanian</option>
+                                                        <option value="Mauritian">Mauritian</option>
+                                                        <option value="Mexican">Mexican</option>
+                                                        <option value="Micronesian">Micronesian</option>
+                                                        <option value="Moldovan">Moldovan</option>
+                                                        <option value="Monacan">Monacan</option>
+                                                        <option value="Mongolian">Mongolian</option>
+                                                        <option value="Moroccan">Moroccan</option>
+                                                        <option value="Mosotho">Mosotho</option>
+                                                        <option value="Motswana">Motswana</option>
+                                                        <option value="Mozambican">Mozambican</option>
+                                                        <option value="Namibian">Namibian</option>
+                                                        <option value="Nauruan">Nauruan</option>
+                                                        <option value="Nepalese">Nepalese</option>
+                                                        <option value="New Zealander">New Zealander</option>
+                                                        <option value="Nicaraguan">Nicaraguan</option>
+                                                        <option value="Nigerian">Nigerian</option>
+                                                        <option value="Nigerien">Nigerien</option>
+                                                        <option value="North Korean">North Korean</option>
+                                                        <option value="Northern Irish">Northern Irish</option>
+                                                        <option value="Norwegian">Norwegian</option>
+                                                        <option value="Omani">Omani</option>
+                                                        <option value="Pakistani">Pakistani</option>
+                                                        <option value="Palauan">Palauan</option>
+                                                        <option value="Panamanian">Panamanian</option>
+                                                        <option value="Papua New Guinean">Papua New Guinean</option>
+                                                        <option value="Paraguayan">Paraguayan</option>
+                                                        <option value="Peruvian">Peruvian</option>
+                                                        <option value="Polish">Polish</option>
+                                                        <option value="Portuguese">Portuguese</option>
+                                                        <option value="Qatari">Qatari</option>
+                                                        <option value="Romanian">Romanian</option>
+                                                        <option value="Russian">Russian</option>
+                                                        <option value="Rwandan">Rwandan</option>
+                                                        <option value="Saint Lucian">Saint Lucian</option>
+                                                        <option value="Salvadoran">Salvadoran</option>
+                                                        <option value="Samoan">Samoan</option>
+                                                        <option value="San Marinese">San Marinese</option>
+                                                        <option value="Sao Tomean">Sao Tomean</option>
+                                                        <option value="Saudi">Saudi</option>
+                                                        <option value="Scottish">Scottish</option>
+                                                        <option value="Senegalese">Senegalese</option>
+                                                        <option value="Serbian">Serbian</option>
+                                                        <option value="Seychellois">Seychellois</option>
+                                                        <option value="Sierra Leonean">Sierra Leonean</option>
+                                                        <option value="Singaporean">Singaporean</option>
+                                                        <option value="Slovakian">Slovakian</option>
+                                                        <option value="Slovenian">Slovenian</option>
+                                                        <option value="Solomon Islander">Solomon Islander</option>
+                                                        <option value="Somali">Somali</option>
+                                                        <option value="South African">South African</option>
+                                                        <option value="South Korean">South Korean</option>
+                                                        <option value="Spanish">Spanish</option>
+                                                        <option value="Sri Lankan">Sri Lankan</option>
+                                                        <option value="Sudanese">Sudanese</option>
+                                                        <option value="Surinamer">Surinamer</option>
+                                                        <option value="Swazi">Swazi</option>
+                                                        <option value="Swedish">Swedish</option>
+                                                        <option value="Swiss">Swiss</option>
+                                                        <option value="Syrian">Syrian</option>
+                                                        <option value="Taiwanese">Taiwanese</option>
+                                                        <option value="Tajik">Tajik</option>
+                                                        <option value="Tanzanian">Tanzanian</option>
+                                                        <option value="Thai">Thai</option>
+                                                        <option value="Togolese">Togolese</option>
+                                                        <option value="Tongan">Tongan</option>
+                                                        <option value="Trinidadian or Tobagonian">Trinidadian or
+                                                            Tobagonian</option>
+                                                        <option value="Tunisian">Tunisian</option>
+                                                        <option value="Turkish">Turkish</option>
+                                                        <option value="Tuvaluan">Tuvaluan</option>
+                                                        <option value="Ugandan">Ugandan</option>
+                                                        <option value="Ukrainian">Ukrainian</option>
+                                                        <option value="Uruguayan">Uruguayan</option>
+                                                        <option value="Uzbekistani">Uzbekistani</option>
+                                                        <option value="Venezuelan">Venezuelan</option>
+                                                        <option value="Vietnamese">Vietnamese</option>
+                                                        <option value="Welsh">Welsh</option>
+                                                        <option value="Yemenite">Yemenite</option>
+                                                        <option value="Zambian">Zambian</option>
+                                                        <option value="Zimbabwean">Zimbabwean</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-3">
+                                                    <label for="inputEmail4">Phone No</label>
+                                                    <input type="number" class="form-control" name="customer_phone" required>
+                                                </div>
+                                                <div class="form-group col-md-3">
+                                                    <label for="inputEmail4">Country</label>
+                                                    <select class="select2" id="country" name="customer_country">
+
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">State</label>
+                                                    <select class="select2" id="state" name="customer_state">
+
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">City</label>
+                                                    <select class="select2" id="city" name="customer_city">
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputEmail4">Pincode</label>
+                                                    <input type="number" class="form-control" name="customer_pincode" required>
+                                                </div>
+                                                <div class="form-group col-md-3">
+                                                    <label for="inputEmail4">Address</label>
+                                                    <textarea class="form-control" name="customer_address" required></textarea>
+                                                </div>
+                                                <div class="form-group col-md-2 d-none">
+                                                    <label for="inputEmail4">Docs</label>
+                                                    <input type="text" class="form-control" name="customer_doc">
+                                                </div>
+                                                <div class="form-group col-md-12">
+                                                    <label class="pointer btn btn-primary" for="upload">Upload Customer
+                                                        Files</label>
+                                                    <input type="file" id="upload" accept="image/*">
+                                                </div>
+                                                <div class="row image-prev-area d-none">
+
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-save">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="modal fade" id="room-swap">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="room-title">Room</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <form id="room-swap-add">
+                        <div class="table-responsive">
+                            <table class="table table-bordered ">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th class="text-left border-right-0 border-bottom-0 w-15">Room Type</th>
+                                        <th class="text-left border-right-0 border-bottom-0" hidden>No of Night</th>
+                                        <th class="text-left border-right-0 border-bottom-0  w-20">From Date/To Date
+                                        </th>
+                                        <th class="text-center border-right-0 border-bottom-0">No of Rooms</th>
+                                        <th class="text-center border-right-0 border-bottom-0 ">No of Guest (Adult/Child)
+                                        </th>
+                                        <!-- <th class="text-center border-right-0 border-bottom-0">Charges for Extra Bed</th> -->
+                                        <th class="text-right border-right-0 border-bottom-0 ">Price per Night</th>
+                                        <th class="text-right border-right-0 border-bottom-0">Discount%</th>
+                                        <th class="text-right border-right-0 border-bottom-0 ">CGST % / SGST %</th>
+                                        <th class="text-right border-bottom-0 item-total">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <select class="select2 room_category" id="room_category" name="room_category" required>
+                                                <option value="0">Select a Room Type</option>
+                                            </select>
+                                        </td>
+                                        <td class="hide" hidden>
+                                            <input type="number" name="hotel_no_of_night" class="no_of_night form-control text-right" readonly>
+                                            <input type="text" name="swap_room_no" class="swap_room_no" readonly>
+                                        </td>
+                                        <td>
+                                            <input type="datetime-local" name="hotel_from_date" autocomplete="off" required="required" data-item="from_date" class="from_date current_date form-control text-right">
+                                            <input type="datetime-local" name="hotel_to_date" autocomplete="off" required="required" data-item="to_date" class="to_date set_date form-control text-right">
+                                        </td>
+                                        <td class="room_no_row">
+                                            <select class="room_no form-control" id="room_no" name="room_no" required>
+                                                <option value="">Select a Room No</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <input type="number" name="hotel_no_of_adults" autocomplete="off" required="required" data-item="no_of_adults" class="no_of_adults form-control text-right">
+                                            <input type="number" name="hotel_no_of_childs" autocomplete="off" required="required" data-item="no_of_childs" class="no_of_childs form-control text-right">
+                                        </td>
+                                        <td hidden>
+                                            <input type="text" name="hotel_no_of_extra_bed" required="required" value="0" class="form-control text-right">
+                                        </td>
+                                        <td>
+                                            <input type="number" name="hotel_price" autocomplete="off" required="required" data-item="price" class="price form-control text-right">
+                                        </td>
+                                        <td>
+                                            <input type="number" name="hotel_discount" autocomplete="off" value="0" required="required" data-item="discount" class="discount form-control text-right">
+                                            <input type="text" name="discount_amount" tabindex="-1" name autocomplete="off" value="0" readonly data-item="discount-amount" class="discount-amount form-control text-right">
+                                        </td>
+                                        <td>
+                                            <input type="text" name="hotel_cgst" autocomplete="off" required="required" data-item="cgst" class="cgst form-control text-right">
+                                            <input type="text" name="hotel_sgst" autocomplete="off" required="required" data-item="sgst" class="sgst form-control text-right">
+                                        </td>
+
+                                        <td>
+                                            <input type="text" readonly name="room_total" class="total form-control text-right border-0">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <button type="button" class="btn btn-primary room-swap float-right">Save</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="checkout">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="delete">Full Checkout</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body checkout-list">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card summary p-0">
+                                <div class="card-header">
+                                    <h3 class="p-2 p-l-0 m-0">Summary</h3>
+                                </div>
+                                <div class="card-body p-0">
+                                </div>
+                            </div>
+                            <form id="checkout-full">
+                                <p>Payment Type</p>
+                                <select class="select2 payment_mode " id="payment_mode" name="payment_mode" required>
+
+                                </select>
+                                <br>
+                                <p>Amount</p>
+                                <input type="text" required name="advance" class="advance font-weight-bolder form-control text-right">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary btn-full-checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/vendors.min.js"></script>
+    <script src="assets/vendors/select2/select2.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/json/countries.js"></script>
+    <script src="assets/json/cities.js"></script>
+    <script src="assets/json/states.js"></script>
+    <script src="assets/page/customer-ledger-details.js"></script>
+    <script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
